@@ -1,0 +1,15 @@
+name: geoskill-lidar-ground-classification
+display_name: LiDAR 地面点分类
+description: |
+  渐进形态学滤波PMF/坡度滤波分离地面点并生成DTM
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-lidar-ground-classification.py
+runtime: python>=3.9
+tags:
+  - extraction
+  - gis
+  - lidar
+  - machine-learning
+  - point-cloud
+  - remote-sensing
